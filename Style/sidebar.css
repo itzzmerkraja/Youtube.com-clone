@@ -6,3 +6,21 @@
     width: 72px;
     background-color: white;
 }
+.sidebar-link{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.sidebar-link:hover{
+    background-color: rgb(230, 223, 223);
+}
+.sidebar-link img{
+    height: 24px;
+}
+.sidebar-link div{
+    font-family: Roboto,Arial;
+    font-size: 10px;
+}
